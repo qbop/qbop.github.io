@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "SofiaSans-Regular";
+    src: url('../fonts/SofiaSans-Regular.ttf')
+ }
+
+ @font-face {
+    font-family: "SofiaSans-Italic";
+    src: url('../fonts/SofiaSans-Italic.ttf')
+ }
+
+ @font-face {
+    font-family: "SofiaSans-Bold";
+    src: url('../fonts/SofiaSans-Bold.ttf')
+ }
+ 
+ body {
+    font-family: 'SofiaSans-Regular', sans-serif;
+ }
