@@ -16,3 +16,15 @@
  body {
     font-family: 'SofiaSans-Regular', sans-serif;
  }
+
+ h1, h2, h3 {
+   font-family: "SofiaSans-Bold";
+ }
+
+ i {
+   font-family: "SofiaSans-Italic";
+ }
+
+ b {
+   font-family: "SofiaSans-Bold";
+ }

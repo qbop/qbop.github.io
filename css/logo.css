@@ -1,0 +1,77 @@
+:root {
+   --small-dot-diameter: 10px;
+   --middle-dot-diameter: calc(var(--small-dot-diameter) * 3);
+   --large-dot-diameter: calc(var(--small-dot-diameter) * 4);
+   --dot-spacer: calc(var(--small-dot-diameter) / 5);
+   --qbop-canvas-width: calc(var(--middle-dot-diameter) * 3 + var(--dot-spacer) * 3 + var(--large-dot-diameter));
+}
+
+.logo {
+   position: relative;
+   width: var(--qbop-canvas-width);
+   height: var(--large-dot-diameter);
+   margin: 40px 20px;
+}
+
+.logo > div {
+   position: absolute;
+   background-color: black;
+   border-radius: 50% 50%;
+}
+
+.q1 {
+   width: var(--middle-dot-diameter);
+   height: var(--middle-dot-diameter);
+   top: 0;
+   left: 0;
+}
+
+.q2 {
+   width: var(--small-dot-diameter);
+   height: var(--small-dot-diameter);
+   top: var(--middle-dot-diameter);
+   left: 0;
+}
+
+.q3 {
+   width: var(--small-dot-diameter);
+   height: var(--small-dot-diameter);
+   top: var(--middle-dot-diameter);
+   left: calc(var(--small-dot-diameter) * 2);
+}
+
+.b1 {
+   width: var(--small-dot-diameter);
+   height: var(--small-dot-diameter);
+   top: 0;
+   left: calc(var(--middle-dot-diameter) + var(--dot-spacer));
+}
+
+.b2 {
+   width: var(--middle-dot-diameter);
+   height: var(--middle-dot-diameter);
+   top: var(--small-dot-diameter);
+   left: calc(var(--middle-dot-diameter) + var(--dot-spacer));
+
+}
+
+.o1 {
+   width: var(--large-dot-diameter);
+   height: var(--large-dot-diameter);
+   top: 0;
+   left: calc(var(--middle-dot-diameter) * 2 + var(--dot-spacer) * 2);
+}
+
+.p1 {
+   width: var(--middle-dot-diameter);
+   height: var(--middle-dot-diameter);
+   top: 0;
+   left: calc(var(--middle-dot-diameter) * 2 + var(--large-dot-diameter) + var(--dot-spacer) * 3);
+}
+
+.p2 {
+   width: var(--small-dot-diameter);
+   height: var(--small-dot-diameter);
+   top: var(--middle-dot-diameter);
+   left: calc(var(--middle-dot-diameter) * 2 + var(--large-dot-diameter) + var(--dot-spacer) * 3);
+}
