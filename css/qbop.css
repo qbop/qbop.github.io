@@ -1,30 +1,63 @@
 @font-face {
-    font-family: "SofiaSans-Regular";
-    src: url('../fonts/SofiaSans-Regular.ttf')
- }
+   font-family: "SofiaSans-Regular";
+   src: url('../fonts/SofiaSans-Regular.ttf')
+}
 
- @font-face {
-    font-family: "SofiaSans-Italic";
-    src: url('../fonts/SofiaSans-Italic.ttf')
- }
-
- @font-face {
-    font-family: "SofiaSans-Bold";
-    src: url('../fonts/SofiaSans-Bold.ttf')
- }
- 
- body {
-    font-family: 'SofiaSans-Regular', sans-serif;
- }
-
- h1, h2, h3 {
-   font-family: "SofiaSans-Bold";
- }
-
- i {
+@font-face {
    font-family: "SofiaSans-Italic";
- }
+   src: url('../fonts/SofiaSans-Italic.ttf')
+}
 
- b {
+@font-face {
    font-family: "SofiaSans-Bold";
- }
+   src: url('../fonts/SofiaSans-Bold.ttf')
+}
+
+body {
+   max-width: 1000px;
+   font-family: 'SofiaSans-Regular', sans-serif;
+   padding: 40px 40px 20px 40px;
+   margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "SofiaSans-Bold";
+}
+
+i,
+.italic {
+   font-family: "SofiaSans-Italic";
+}
+
+b,
+.bold {
+   font-family: "SofiaSans-Bold";
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+header {
+   text-align: center;
+   margin: 0 auto 30px auto;
+}
+
+main {
+   text-align: center;
+   min-height: calc(100vh - 170px);
+}
+
+footer {
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.todo {
+   margin-top: 40px;
+   color: darkslategray;
+}

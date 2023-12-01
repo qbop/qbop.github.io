@@ -10,7 +10,6 @@
    position: relative;
    width: var(--qbop-canvas-width);
    height: var(--large-dot-diameter);
-   margin: 40px 20px;
 }
 
 .logo > div {
