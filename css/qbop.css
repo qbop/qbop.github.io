@@ -14,15 +14,21 @@
 }
 
 body {
-   max-width: 1000px;
-   font-family: 'SofiaSans-Regular', sans-serif;
+   max-width: 960px;
    padding: 40px 40px 20px 40px;
    margin: 0 auto;
 }
 
+body * {
+   font-family: 'SofiaSans-Regular', sans-serif;
+}
+
 h1,
 h2,
-h3 {
+h3,
+.h1,
+.h2,
+.h3 {
    font-family: "SofiaSans-Bold";
 }
 
@@ -55,9 +61,14 @@ footer {
    display: flex;
    align-items: center;
    justify-content: center;
+   font-size: 1rem;
 }
 
 .todo {
    margin-top: 40px;
    color: darkslategray;
+}
+
+.text-center {
+   text-align: center;
 }

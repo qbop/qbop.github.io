@@ -1,0 +1,75 @@
+.ekocyxap h1 {
+    margin: 0;
+}
+
+.ekocyxap .slogan {
+    color: #6832AB;
+}
+
+.ekocyxap header span {
+    color: #A7A6FF;
+}
+
+.inverted {
+    transform: scale(1, -1);
+}
+
+.ekocyxap .h1 {
+    font-size: 2rem;
+}
+
+.ekocyxap hr {
+    margin: 0;
+    border: none;
+    height: 2px;
+    background-color: #A7A6FF;
+}
+
+.ekocyxap header {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.ekocyxap main {
+    text-align: justify;
+    min-height: calc(100vh - 260px);
+}
+
+body.ekocyxap {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #2A1445;
+}
+
+.ekocyxap form {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.ekocyxap input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: #F2F2FF;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: dashed 2px #CDCCFF;
+    max-width: 100%;
+}
+
+.ekocyxap input.shuffling {
+    color: #DEDEFF;
+}
+
+.ekocyxap button {
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #A7A6FF;
+}
+
+.ekocyxap .hint {
+    font-size: 1rem;
+    color: #6832AB
+}
