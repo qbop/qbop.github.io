@@ -276,7 +276,7 @@ const Ekocyxap = {
 
         this.inputField.classList.add('shuffling');
 
-        interval = window.setInterval(() => {
+        this.interval = window.setInterval(() => {
 
             this.inputField.value = this.words[Math.floor(Math.random() * this.words.length)]
             this.counter++;
