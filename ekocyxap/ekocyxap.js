@@ -283,7 +283,7 @@ const Ekocyxap = {
 
             if (this.counter > this.MAX_SHUFFLE_COUNT) {
                 this.inputField.classList.remove('shuffling');
-                window.clearInterval(interval);
+                window.clearInterval(this.interval);
             }
         }, this.ANIMATION_SPEED);
     }
